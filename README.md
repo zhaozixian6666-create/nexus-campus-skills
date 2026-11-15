@@ -5,6 +5,10 @@
 
 ---
 
+**[下载最新发布包 v0.6.6](https://github.com/zhaozixian6666-create/nexus-campus-skills/releases/latest)** · [安装说明](./安装说明.md) · 装完重启 WorkBuddy 即可用
+
+---
+
 ## 这是什么
 
 大学生问 AI 最多的问题，答案不在百度里，也不在学长嘴里——它取决于**你学校怎么规定、你时间还剩多少、你手上有什么**。
