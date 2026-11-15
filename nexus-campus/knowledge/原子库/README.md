@@ -32,7 +32,7 @@ knowledge/原子库/
 
 **两个入口，一份真源。**
 
-> ⚠️ **构建脚本未随包发布。** `tools/` 下的 `build-atoms-engine.py`、`build-thought-layer.py`、`check-thought-layer.py`、`sync-all.py` 为作者本机的生成与校验工具，开源包只分发**生成物**（`data/` 三文件、`knowledge/思想/` 卡片）。要重建数据层，请按 `data/` 的字段结构自行实现等价生成流程；检索不受影响，`scripts/query.py` 已随包提供。 主题正文、九本书全文、收录治理文档只在本机留存；对外包里只有脱敏数据与引擎本体。
+> ⚠️ **构建脚本未随包发布。** `tools/` 下的 `build-atoms-engine.py`、`build-thought-layer.py`、`check-thought-layer.py`、`sync-all.py` 为作者本机的生成与校验工具，发布包只分发**生成物**（`data/` 三文件、`knowledge/思想/` 卡片）。要重建数据层，请按 `data/` 的字段结构自行实现等价生成流程；检索不受影响，`scripts/query.py` 已随包提供。 主题正文、九本书全文、收录治理文档只在本机留存；对外包里只有脱敏数据与引擎本体。
 
 ## 跟其他两处的关系
 
