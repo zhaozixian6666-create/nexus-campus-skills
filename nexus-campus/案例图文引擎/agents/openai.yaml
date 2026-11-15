@@ -1,0 +1,4 @@
+interface:
+  display_name: "真实 AI 案例图文"
+  short_description: "研究真实 AI 用法，完成自然中文写作、双版本图文排版与图片导出检查"
+  default_prompt: "使用 $humanities-ai-case 制作一期有公开资料依据的 AI 案例，交付小红书分页版、完整长图及可编辑网页。"

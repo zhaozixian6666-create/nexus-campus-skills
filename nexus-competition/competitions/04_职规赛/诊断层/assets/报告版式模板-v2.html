@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>生涯发展报告 · 版式模板</title>
+<style>
+:root{
+  --color-paper:#FFFFFF; --color-ink:#1B1B1B; --color-muted:#8A8A8A;
+  --color-hair:#E6E6E6; --color-purple:#7C6FD1; --color-purple-soft:#F3F0FC;
+  --color-blue:#4E8FC4; --color-blue-soft:#EEF5FB;
+  --fs-cover-role:36pt; --fs-cover-kicker:9pt; --fs-cover-sub:12pt;
+  --fs-num:26pt; --fs-h1:13pt; --fs-h2:11pt; --fs-body:10.5pt; --fs-small:8.5pt;
+  --fw-bold:500; --fw-normal:400;
+  --sp-xs:4px; --sp-sm:8px; --sp-md:16px; --sp-lg:28px; --sp-xl:52px;
+  --indent:2em; --lh:1.4; --page-x:2.6cm; --page-y:2.8cm;
+  --font-cn:'YouYuan','幼圆','Microsoft YaHei',sans-serif;
+  --font-num:'Bahnschrift','Segoe UI',sans-serif;
+}
+@page{ margin:var(--page-y) var(--page-x); @top-right{ content:"CAREER DEVELOPMENT REPORT  /  2026"; font-family:var(--font-num); font-size:var(--fs-small); color:var(--color-muted); letter-spacing:1px; } @bottom-center{ content:counter(page); font-family:var(--font-num); font-size:var(--fs-small); color:var(--color-muted); } }
+@page cover{ @bottom-center{ content:none; } @top-center{ content:none; } @top-right{ content:none; } }
+section[role=cover]{ page:cover; }
+</style>
+</head>
+<body style="font-family:var(--font-cn);color:var(--color-ink);font-size:var(--fs-body);line-height:var(--lh);background:var(--color-paper);">
+
+<!-- 版式骨架。〔待填：…〕为内容槽位，由成稿层填入本人真实事实；不得填入虚构内容。 -->
+<section role="cover" style="padding-top:3.4cm;">
+  <p style="font-family:var(--font-num);font-size:var(--fs-cover-kicker);color:var(--color-muted);letter-spacing:2px;text-align:left;">〔待填：kicker〕</p>
+  <p style="font-size:var(--fs-cover-kicker);color:var(--color-blue);letter-spacing:1px;text-align:left;">第四届全国大学生职业规划大赛 · 成长赛道 · 生涯发展报告</p>
+  <p style="border-bottom:1px solid var(--color-hair);margin-top:var(--sp-xl);margin-bottom:var(--sp-xl);font-size:var(--fs-small);">&nbsp;</p>
+  <p style="font-size:var(--fs-cover-role);font-weight:var(--fw-bold);color:var(--color-ink);text-align:left;letter-spacing:2px;line-height:1.2;">〔待填：目标职业，主视觉 32–40pt〕</p>
+  <p style="font-size:var(--fs-cover-sub);color:var(--color-muted);text-align:left;margin-top:var(--sp-lg);">〔待填：一句话职业主张〕</p>
+  <p style="text-align:left;margin-top:var(--sp-lg);"><span style="background:var(--color-purple-soft);color:var(--color-purple);padding:var(--sp-xs) var(--sp-sm);font-size:var(--fs-small);">〔待填：赛道/组别〕</span></p>
+  <p style="border-bottom:1px solid var(--color-hair);margin-top:var(--sp-xl);margin-bottom:var(--sp-md);font-size:var(--fs-small);">&nbsp;</p>
+  <p style="font-size:var(--fs-small);color:var(--color-muted);text-align:left;">〔待填：学籍与专业等封面字段，仅用本人真实信息〕</p>
+</section>
+
+<section data-page-restart="1" style="font-size:var(--fs-body);color:var(--color-ink);">
+  <!-- 三章循环：01 职业认知 / 02 实践计划 / 03 未来规划 -->
+  <h1 style="font-size:var(--fs-h1);font-weight:var(--fw-bold);color:var(--color-ink);border-bottom:1px solid var(--color-hair);padding-bottom:var(--sp-sm);margin-top:var(--sp-lg);"><span style="font-family:var(--font-num);font-size:var(--fs-num);color:var(--color-purple);">01</span>　〔待填：章标题〕</h1>
+  <p style="font-family:var(--font-num);font-size:var(--fs-small);color:var(--color-purple);letter-spacing:2px;text-indent:0;">〔待填：英文 kicker〕</p>
+  <h2 style="font-size:var(--fs-h2);font-weight:var(--fw-bold);color:var(--color-ink);margin-top:var(--sp-lg);">〔待填：节标题〕</h2>
+  <p style="font-size:var(--fs-body);text-align:justify;text-indent:var(--indent);">〔待填：正文，基于本人真实事实〕</p>
+  <!-- 需要横向比较时才用 table；表头细线、黑字，禁深蓝底白字 -->
+  <!-- 图位：<p style="text-align:center;"><img src="绝对绝对路径或base64" width="540"></p>，图注用 <p> 居中；≤5 张，不得冒充证据 -->
+</section>
+</body>
+</html>
